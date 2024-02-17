@@ -1,0 +1,1840 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>282146a08e7d4dd2b789126fa93136c4</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<section
+id="analysys-of-gym-customer-profiles-and-what-to-do-to-keep-them-customer-retention-strategy"
+class="cell markdown">
+<h1>Analysys of gym customer profiles and what to do to keep them,
+customer retention strategy.</h1>
+<p>by Yotam dadon, Marketing growth data analyst.</p>
+<ul>
+<li>LinkedIn- <a href = "https://www.linkedin.com/in/yotamdadon/">Click
+here for linkedIn</a></li>
+<li>Facebook- <a href = "https://www.facebook.com/yotamdadon/">Click
+here for FaceBook</a></li>
+<li>Email-
+<a href = "mailto: ytmddn@gmail.com">ytmddn@gmail.com</a></li>
+</ul>
+</section>
+<section id="project-goals" class="cell markdown">
+<h2>project Goals:</h2>
+<ul>
+<li>Learn to predict the probability of churn (for the upcoming month)
+for each customer</li>
+<li>Draw up typical user portraits: select the most outstanding groups
+and describe their main features</li>
+<li>Analyze the factors that impact churn most.</li>
+<li>Draw basic conclusions and develop recommendations on how to improve
+customer service:
+<ul>
+<li>Identify target groups.</li>
+<li>Suggest measures to cut churn.</li>
+<li>Describe any other patterns you see with respect to interaction with
+customers. ________</li>
+</ul></li>
+</ul>
+</section>
+<section id="table-of-contents" class="cell markdown">
+<h2>Table of Contents</h2>
+<h4 id="step-1-download-the-data"><a href="#Step_1">Step 1. Download the
+data</a></h4>
+<p><a href="#Conclusion_step_1">Conclusion step_1</a></p>
+<h4 id="step-2-exploratory-data-analysis-eda"><a href="#Step_2">Step 2.
+Exploratory data analysis (EDA)</a></h4>
+<p><a href="#2.1">2.1. Does it contain any missing features? Study the
+mean values and standard deviation.</a></p>
+<p><a href="#2.2">2.2. Look at the mean feature values in two groups:
+for those who left (churn) and for those who stayed.</a></p>
+<p><a href="#2.3">2.3. Plot bar histograms and feature distributions for
+those who left (churn) and those who stayed.</a></p>
+<p><a href="#2.4">2.4. Build a correlation matrix.</a></p>
+<h5 id="conclusion-step-2"><a href="#Conclusion_step_2">Conclusion Step
+2</a></h5>
+<h4 id="step-3-build-a-model-to-predict-user-churn"><a
+href="#Step_3">Step 3. Build a model to predict user churn</a></h4>
+<p><a href="#3.1">3.1. Divide the data into train and validation sets
+using the train_test_split() function.</a></p>
+<p><a href="#3.2">3.2. Train the model on the train set with two
+methods: logistic regression random forest</a></p>
+<p><a href="#3.3">3.3. Evaluate accuracy, precision, and recall for both
+models using the validation data. Use them to compare the models. Which
+model gave better results?</a></p>
+<h4 id="conclusion-step_3"><a href="#Conclusion_step_3">Conclusion
+step_3</a></h4>
+<h4 id="step-4-create-user-clusters"><a href="#Step_4">Step 4. Create
+user clusters</a></h4>
+<p><a href="#4.1">4.1.Standardize the data.</a></p>
+<p><a href="#4.2">4.2. Use the linkage() function to build a matrix of
+distances based on the standardized feature matrix and plot a
+dendrogram. Use the resulting graph to estimate the number of clusters
+you can single out.</a></p>
+<p><a href="#4.3">4.3. Train the clustering model with the K-means
+algorithm and predict customer clusters.</a></p>
+<p><a href="#4.4">4.4. Look at the mean feature values for
+clusters.</a></p>
+<p><a href="#4.5">4.5. Plot distributions of features for the
+clusters.</a></p>
+<p><a href="#4.6">4.6. Calculate the churn rate for each cluster. Do
+they differ in terms of churn rate?</a></p>
+<h4 id="conclusion-step_4"><a href="#Conclusion_step_4">Conclusion
+step_4</a></h4>
+<p>#### <a href="#Step_5">Step 5. Come up with conclusions and basic
+recommendations on working with customers</a></p>
+<p><a href="#5.1">5.1. Draw conclusions and formulate recommendations
+regarding the strategy for customer interaction and retention.</a></p>
+<h4 id="conclusion-step_5"><a href="#Conclusion_step_5">Conclusion
+step_5</a></h4>
+<h4 id="general-conclusions"><a href="#General_conclusions">General
+Conclusions</a></h4>
+</section>
+<div class="cell code" data-execution_count="1">
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> datetime <span class="im">as</span> dt</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> matplotlib <span class="im">import</span> pyplot <span class="im">as</span> plt</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> scipy.stats <span class="im">as</span> stats</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> plotly.express <span class="im">as</span> px</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.gridspec <span class="im">as</span> gridspec</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> matplotlib.gridspec <span class="im">import</span> GridSpec</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> warnings</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>warnings.filterwarnings(<span class="st">&#39;ignore&#39;</span>)</span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.preprocessing <span class="im">import</span> StandardScaler</span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.model_selection <span class="im">import</span> train_test_split</span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.linear_model <span class="im">import</span> LogisticRegression</span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.ensemble <span class="im">import</span> RandomForestRegressor</span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.ensemble <span class="im">import</span> RandomForestClassifier, GradientBoostingClassifier</span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.metrics <span class="im">import</span> accuracy_score, precision_score, recall_score, f1_score</span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.metrics <span class="im">import</span> balanced_accuracy_score</span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> scipy.cluster.hierarchy <span class="im">import</span> dendrogram, linkage </span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.cluster <span class="im">import</span> KMeans</span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a></span></code></pre></div>
+</div>
+<section id="step1-download-the-data" class="cell markdown">
+<h2>Step1. Download the data<a id = '#Step_1'></a></h2>
+</section>
+<div class="cell code" data-execution_count="2">
+<div class="sourceCode" id="cb2"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Import the tables</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>GYM_CHURN_PATH_LOCAL <span class="op">=</span> <span class="st">&#39;/Users/yotamdadon/Documents/Data_Analyst/Forcasting- ML/gym_churn_us.csv&#39;</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>GYM_CHURN_PATH_ONLINE <span class="op">=</span> <span class="st">&#39;/datasets/gym_churn_us.csv&#39;</span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="cf">try</span>:</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>    gym_churn<span class="op">=</span> pd.read_csv(GYM_CHURN_PATH_LOCAL)</span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a><span class="cf">except</span>:</span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>    gym_churn <span class="op">=</span> pd.read_csv(GYM_CHURN_PATH_ONLINE)</span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a>gym_churn.columns <span class="op">=</span> gym_churn.columns.<span class="bu">str</span>.lower()</span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a></span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="3">
+<div class="sourceCode" id="cb3"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>gym_churn.shape</span></code></pre></div>
+<div class="output execute_result" data-execution_count="3">
+<pre><code>(4000, 14)</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="4">
+<div class="sourceCode" id="cb5"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>gym_churn.info()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>&lt;class &#39;pandas.core.frame.DataFrame&#39;&gt;
+RangeIndex: 4000 entries, 0 to 3999
+Data columns (total 14 columns):
+ #   Column                             Non-Null Count  Dtype  
+---  ------                             --------------  -----  
+ 0   gender                             4000 non-null   int64  
+ 1   near_location                      4000 non-null   int64  
+ 2   partner                            4000 non-null   int64  
+ 3   promo_friends                      4000 non-null   int64  
+ 4   phone                              4000 non-null   int64  
+ 5   contract_period                    4000 non-null   int64  
+ 6   group_visits                       4000 non-null   int64  
+ 7   age                                4000 non-null   int64  
+ 8   avg_additional_charges_total       4000 non-null   float64
+ 9   month_to_end_contract              4000 non-null   float64
+ 10  lifetime                           4000 non-null   int64  
+ 11  avg_class_frequency_total          4000 non-null   float64
+ 12  avg_class_frequency_current_month  4000 non-null   float64
+ 13  churn                              4000 non-null   int64  
+dtypes: float64(4), int64(10)
+memory usage: 437.6 KB
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="5">
+<div class="sourceCode" id="cb7"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>gym_churn</span></code></pre></div>
+<div class="output execute_result" data-execution_count="5">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>gender</th>
+      <th>near_location</th>
+      <th>partner</th>
+      <th>promo_friends</th>
+      <th>phone</th>
+      <th>contract_period</th>
+      <th>group_visits</th>
+      <th>age</th>
+      <th>avg_additional_charges_total</th>
+      <th>month_to_end_contract</th>
+      <th>lifetime</th>
+      <th>avg_class_frequency_total</th>
+      <th>avg_class_frequency_current_month</th>
+      <th>churn</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>6</td>
+      <td>1</td>
+      <td>29</td>
+      <td>14.227470</td>
+      <td>5.0</td>
+      <td>3</td>
+      <td>0.020398</td>
+      <td>0.000000</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>12</td>
+      <td>1</td>
+      <td>31</td>
+      <td>113.202938</td>
+      <td>12.0</td>
+      <td>7</td>
+      <td>1.922936</td>
+      <td>1.910244</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>28</td>
+      <td>129.448479</td>
+      <td>1.0</td>
+      <td>2</td>
+      <td>1.859098</td>
+      <td>1.736502</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>12</td>
+      <td>1</td>
+      <td>33</td>
+      <td>62.669863</td>
+      <td>12.0</td>
+      <td>2</td>
+      <td>3.205633</td>
+      <td>3.357215</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>26</td>
+      <td>198.362265</td>
+      <td>1.0</td>
+      <td>3</td>
+      <td>1.113884</td>
+      <td>1.120078</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>3995</th>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>12</td>
+      <td>0</td>
+      <td>33</td>
+      <td>2.406023</td>
+      <td>12.0</td>
+      <td>8</td>
+      <td>2.284497</td>
+      <td>2.349070</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>3996</th>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>29</td>
+      <td>68.883764</td>
+      <td>1.0</td>
+      <td>1</td>
+      <td>1.277168</td>
+      <td>0.292859</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>3997</th>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>12</td>
+      <td>0</td>
+      <td>28</td>
+      <td>78.250542</td>
+      <td>11.0</td>
+      <td>2</td>
+      <td>2.786146</td>
+      <td>2.831439</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>3998</th>
+      <td>0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>6</td>
+      <td>0</td>
+      <td>32</td>
+      <td>61.912657</td>
+      <td>5.0</td>
+      <td>3</td>
+      <td>1.630108</td>
+      <td>1.596237</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>3999</th>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>12</td>
+      <td>1</td>
+      <td>30</td>
+      <td>178.861814</td>
+      <td>12.0</td>
+      <td>1</td>
+      <td>1.101832</td>
+      <td>1.035270</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+<p>4000 rows × 14 columns</p>
+</div>
+</div>
+</div>
+<section id="conclusions-step-1" class="cell markdown">
+<h2>Conclusions step 1<a id = '#Conclusions_step_1'></a></h2>
+</section>
+<div class="cell markdown">
+<div class="alert alert-success" role="alert">
+
+## Conclusion download the data:
+    • Binary values - We have columns and 4000 indencies with no missing values, gender, near_location,
+    partner, promo_friends, phone, group_visits.
+    
+    • Continuous values- contract_period, age, avg_additional_charges_total, month_to_end_contract, lifetime, avg_class_frequency_total, avg_class_frequency_current_month.
+
+</div>
+</div>
+<section id="step-2-carry-out-exploratory-data-analysis-eda"
+class="cell markdown">
+<h2>Step 2. Carry out exploratory data analysis (EDA)</h2>
+<p><a id = '#step2'></a></p>
+</section>
+<section
+id="look-at-the-dataset-does-it-contain-any-missing-features-study-the-mean-values-and-standard-deviation-use-the-describe-method-"
+class="cell markdown">
+<h3>Look at the dataset: does it contain any missing features? Study the
+mean values and standard deviation (use the describe() method).
+<a id = '#2.1'></a></h3>
+</section>
+<div class="cell code" data-execution_count="6">
+<div class="sourceCode" id="cb8"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>gym_churn.describe()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="6">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>gender</th>
+      <th>near_location</th>
+      <th>partner</th>
+      <th>promo_friends</th>
+      <th>phone</th>
+      <th>contract_period</th>
+      <th>group_visits</th>
+      <th>age</th>
+      <th>avg_additional_charges_total</th>
+      <th>month_to_end_contract</th>
+      <th>lifetime</th>
+      <th>avg_class_frequency_total</th>
+      <th>avg_class_frequency_current_month</th>
+      <th>churn</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>count</th>
+      <td>4000.000000</td>
+      <td>4000.000000</td>
+      <td>4000.000000</td>
+      <td>4000.000000</td>
+      <td>4000.000000</td>
+      <td>4000.000000</td>
+      <td>4000.000000</td>
+      <td>4000.000000</td>
+      <td>4000.000000</td>
+      <td>4000.000000</td>
+      <td>4000.000000</td>
+      <td>4000.000000</td>
+      <td>4000.000000</td>
+      <td>4000.000000</td>
+    </tr>
+    <tr>
+      <th>mean</th>
+      <td>0.510250</td>
+      <td>0.845250</td>
+      <td>0.486750</td>
+      <td>0.308500</td>
+      <td>0.903500</td>
+      <td>4.681250</td>
+      <td>0.412250</td>
+      <td>29.184250</td>
+      <td>146.943728</td>
+      <td>4.322750</td>
+      <td>3.724750</td>
+      <td>1.879020</td>
+      <td>1.767052</td>
+      <td>0.265250</td>
+    </tr>
+    <tr>
+      <th>std</th>
+      <td>0.499957</td>
+      <td>0.361711</td>
+      <td>0.499887</td>
+      <td>0.461932</td>
+      <td>0.295313</td>
+      <td>4.549706</td>
+      <td>0.492301</td>
+      <td>3.258367</td>
+      <td>96.355602</td>
+      <td>4.191297</td>
+      <td>3.749267</td>
+      <td>0.972245</td>
+      <td>1.052906</td>
+      <td>0.441521</td>
+    </tr>
+    <tr>
+      <th>min</th>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>1.000000</td>
+      <td>0.000000</td>
+      <td>18.000000</td>
+      <td>0.148205</td>
+      <td>1.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>25%</th>
+      <td>0.000000</td>
+      <td>1.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+      <td>0.000000</td>
+      <td>27.000000</td>
+      <td>68.868830</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+      <td>1.180875</td>
+      <td>0.963003</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>50%</th>
+      <td>1.000000</td>
+      <td>1.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+      <td>0.000000</td>
+      <td>29.000000</td>
+      <td>136.220159</td>
+      <td>1.000000</td>
+      <td>3.000000</td>
+      <td>1.832768</td>
+      <td>1.719574</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>75%</th>
+      <td>1.000000</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+      <td>6.000000</td>
+      <td>1.000000</td>
+      <td>31.000000</td>
+      <td>210.949625</td>
+      <td>6.000000</td>
+      <td>5.000000</td>
+      <td>2.536078</td>
+      <td>2.510336</td>
+      <td>1.000000</td>
+    </tr>
+    <tr>
+      <th>max</th>
+      <td>1.000000</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+      <td>12.000000</td>
+      <td>1.000000</td>
+      <td>41.000000</td>
+      <td>552.590740</td>
+      <td>12.000000</td>
+      <td>31.000000</td>
+      <td>6.023668</td>
+      <td>6.146783</td>
+      <td>1.000000</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="cell markdown">
+<div class="alert alert-success" role="alert">
+    
+## Conclusion EDA:
+    
+    • There is a balance between male and females <br>
+    • 84% lives next to the gym <br>
+    • 48.6% are partners <br>
+    • 30% came from a friends promo code <br>
+    • 90% provided their phone number <br>
+    • Average contract length: 4.68 months whith a standart deviation of 4.5<br>
+    • 41% takes part in group sessions <br>
+    • Average age is 29 with a standart deviation of 3 years older or younger <br>
+    • The mode of additional purchases for users is 136 usd with a standart deviation of 96 usd <br>
+    • The average of additional purchases for users is 146 usd with a standart deviation of 96 usd <br>
+    • Costumers usualy come to the gym 1.8 times a week in a total prespective <br>
+    • Costumers usualy come to the gym 1.7 times a week in a relative prespective <br>
+
+</div>
+</div>
+<section
+id="look-at-the-mean-feature-values-in-two-groups-for-those-who-left-churn-and-for-those-who-stayed-use-the-groupby-method-"
+class="cell markdown">
+<h3>Look at the mean feature values in two groups: for those who left
+(churn) and for those who stayed (use the groupby() method).
+<a id = '#2.2'></a></h3>
+</section>
+<div class="cell code" data-execution_count="7">
+<div class="sourceCode" id="cb9"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>churn <span class="op">=</span> <span class="bu">round</span>(gym_churn.groupby(<span class="st">&#39;churn&#39;</span>).mean().reset_index(),<span class="dv">3</span>)</span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>display(churn)</span></code></pre></div>
+<div class="output display_data">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>churn</th>
+      <th>gender</th>
+      <th>near_location</th>
+      <th>partner</th>
+      <th>promo_friends</th>
+      <th>phone</th>
+      <th>contract_period</th>
+      <th>group_visits</th>
+      <th>age</th>
+      <th>avg_additional_charges_total</th>
+      <th>month_to_end_contract</th>
+      <th>lifetime</th>
+      <th>avg_class_frequency_total</th>
+      <th>avg_class_frequency_current_month</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>0</td>
+      <td>0.510</td>
+      <td>0.873</td>
+      <td>0.534</td>
+      <td>0.354</td>
+      <td>0.904</td>
+      <td>5.747</td>
+      <td>0.464</td>
+      <td>29.977</td>
+      <td>158.446</td>
+      <td>5.283</td>
+      <td>4.712</td>
+      <td>2.025</td>
+      <td>2.028</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>1</td>
+      <td>0.511</td>
+      <td>0.768</td>
+      <td>0.355</td>
+      <td>0.184</td>
+      <td>0.903</td>
+      <td>1.729</td>
+      <td>0.269</td>
+      <td>26.990</td>
+      <td>115.083</td>
+      <td>1.663</td>
+      <td>0.991</td>
+      <td>1.475</td>
+      <td>1.045</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="cell markdown">
+<div class="alert alert-success" role="alert">
+
+
+### Main diferences between stay and churn:
+
+- gender: is balnaced between males and females
+- for other binary features we will have a better understanding once we visualize it
+
+- contract period - those who leaves have <b>shorter contract periods</b>
+- age - those who leave tend to a be the age of <b>26-27 or younger</b> 
+- avg_additional_charges_total - the mean total additional charges of stayers is 158$,for leavers is 115$
+- lifetime - leavers tend to leave up to 1 month after thier subscription
+- How often to they visit the gym (both absolute and relative) - those who stay, come to the gym 2 times a week, in apose to the leavers: 1.5 times.
+
+</div>
+</div>
+<section
+id="plot-bar-histograms-and-feature-distributions-for-those-who-left-churn-and-those-who-stayed-"
+class="cell markdown" data-scrolled="true">
+<h2>Plot bar histograms and feature distributions for those who left
+(churn) and those who stayed. <a id = '#2.3'></a></h2>
+</section>
+<div class="cell code" data-execution_count="8">
+<div class="sourceCode" id="cb10"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="co">#lets set the visual palet and figure and grid size</span></span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>sns.set_palette(<span class="st">&quot;pastel&quot;</span>, <span class="dv">5</span>)</span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">15</span>,<span class="dv">18</span>))</span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a>the_grid <span class="op">=</span> GridSpec(<span class="dv">5</span>, <span class="dv">3</span>)</span>
+<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a><span class="co">#loop thrue the dataframs features and plot them, use countplot if they are binary and distplot if they are not binary</span></span>
+<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i,column <span class="kw">in</span> <span class="bu">enumerate</span>(gym_churn.drop(<span class="st">&#39;churn&#39;</span>, axis<span class="op">=</span><span class="dv">1</span>).columns):</span>
+<span id="cb10-7"><a href="#cb10-7" aria-hidden="true" tabindex="-1"></a>    plt.subplot(the_grid[i<span class="op">//</span><span class="dv">3</span>, i<span class="op">%</span><span class="dv">3</span>], title<span class="op">=</span>column.replace(<span class="st">&#39;_&#39;</span>,<span class="st">&#39; &#39;</span>))</span>
+<span id="cb10-8"><a href="#cb10-8" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> gym_churn[column].unique().<span class="bu">sum</span>() <span class="op">==</span> <span class="dv">1</span>:</span>
+<span id="cb10-9"><a href="#cb10-9" aria-hidden="true" tabindex="-1"></a>        sns.countplot(x<span class="op">=</span>column, hue<span class="op">=</span><span class="st">&#39;churn&#39;</span>, data<span class="op">=</span>gym_churn,saturation <span class="op">=</span> <span class="dv">1</span>)</span>
+<span id="cb10-10"><a href="#cb10-10" aria-hidden="true" tabindex="-1"></a>        plt.xlabel(<span class="st">&#39;&#39;</span>)</span>
+<span id="cb10-11"><a href="#cb10-11" aria-hidden="true" tabindex="-1"></a>        plt.ylabel(<span class="st">&#39;&#39;</span>)</span>
+<span id="cb10-12"><a href="#cb10-12" aria-hidden="true" tabindex="-1"></a>        plt.gca().get_legend().remove()</span>
+<span id="cb10-13"><a href="#cb10-13" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb10-14"><a href="#cb10-14" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> column <span class="op">==</span> <span class="st">&#39;near_location&#39;</span>:</span>
+<span id="cb10-15"><a href="#cb10-15" aria-hidden="true" tabindex="-1"></a>            legend <span class="op">=</span> gym_churn[<span class="st">&#39;churn&#39;</span>].unique()</span>
+<span id="cb10-16"><a href="#cb10-16" aria-hidden="true" tabindex="-1"></a>            plt.legend(legend, shadow<span class="op">=</span><span class="va">True</span>, fancybox<span class="op">=</span><span class="va">True</span>, title<span class="op">=</span><span class="st">&#39;churn&#39;</span>, loc<span class="op">=</span><span class="st">&#39;best&#39;</span>)</span>
+<span id="cb10-17"><a href="#cb10-17" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> gym_churn[column].unique().<span class="bu">sum</span>() <span class="op">&gt;</span> <span class="dv">1</span>:</span>
+<span id="cb10-18"><a href="#cb10-18" aria-hidden="true" tabindex="-1"></a>        sns.distplot(gym_churn[gym_churn[<span class="st">&#39;churn&#39;</span>] <span class="op">==</span> <span class="dv">0</span>][column], hist <span class="op">=</span> <span class="va">True</span>, kde <span class="op">=</span> <span class="va">False</span>, hist_kws <span class="op">=</span> {<span class="st">&#39;linewidth&#39;</span>: <span class="dv">1</span>,<span class="st">&#39;alpha&#39;</span>: <span class="dv">1</span>})</span>
+<span id="cb10-19"><a href="#cb10-19" aria-hidden="true" tabindex="-1"></a>        sns.distplot(gym_churn[gym_churn[<span class="st">&#39;churn&#39;</span>] <span class="op">==</span> <span class="dv">1</span>][column], hist <span class="op">=</span> <span class="va">True</span>, kde <span class="op">=</span> <span class="va">False</span>, hist_kws <span class="op">=</span> {<span class="st">&#39;linewidth&#39;</span>: <span class="dv">1</span>,<span class="st">&#39;alpha&#39;</span>: <span class="fl">0.9</span>})</span>
+<span id="cb10-20"><a href="#cb10-20" aria-hidden="true" tabindex="-1"></a>        plt.xlabel(<span class="st">&#39;&#39;</span>)</span>
+<span id="cb10-21"><a href="#cb10-21" aria-hidden="true" tabindex="-1"></a>        plt.ylabel(<span class="st">&#39;&#39;</span>)</span>
+<span id="cb10-22"><a href="#cb10-22" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb10-23"><a href="#cb10-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-24"><a href="#cb10-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-25"><a href="#cb10-25" aria-hidden="true" tabindex="-1"></a>plt.suptitle(<span class="st">&#39;Feature Distribution&#39;</span>, fontsize <span class="op">=</span> <span class="dv">14</span>)</span>
+<span id="cb10-26"><a href="#cb10-26" aria-hidden="true" tabindex="-1"></a><span class="co">#plt.tight_layout()</span></span>
+<span id="cb10-27"><a href="#cb10-27" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_af0f955bbd4845acb7e0c8a35ba44f88/e9f4854fae0d0a847926e0f6554ff5727b4e0ddc.png" /></p>
+</div>
+</div>
+<div class="cell markdown">
+<div class="alert alert-success" role="alert">
+
+### We now have a better visual on how the diferent features distribute:
+- <b>gender-</b> there is a clear balance between sexes about 51% male 49% female
+- <b>near_location-</b> 84% lives next to the gym, far users have higher chances of leaving, 76.8%  to be presice.
+- <b>partner-</b> a partner has 35% chance of leaving as a non partner has 53% of leaving
+- <b>promofriends-</b> promo friend have 18.4% to leave and non promo friends have
+- <b>near location-</b> near people stay more than far, significantly!
+- <b>Partners</b> tend to stay more than non partners
+- <b>group_visits-</b> a user that does not attend group training is more likley to leave
+- <b>contact period-</b> the shorter the period, the likleyhood of leaving
+- <b>age-</b> they mean age of those who leave is 26-27 
+- The average total additional charges of stayers is 158$, for leavers is 115$.
+- <b>lifetime-</b> leavers tend to leave up to 1 month after thier subscription
+- <b>visit frequancy (both absolute and relative)-</b> those who stay, come to the gym 2 times a week, in apose to the leavers: 1.5 times.
+
+</div>
+</div>
+<section id="build-a-correlation-matrix-and-display-it-"
+class="cell markdown">
+<h2>Build a correlation matrix and display it. <a id = '#2.4'></a></h2>
+</section>
+<div class="cell code" data-execution_count="9">
+<div class="sourceCode" id="cb11"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>corrMatrix <span class="op">=</span> gym_churn.corr()</span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>fig, ax <span class="op">=</span> plt.subplots(figsize<span class="op">=</span>(<span class="dv">10</span>,<span class="dv">10</span>))    </span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>sns.heatmap(corrMatrix, annot<span class="op">=</span><span class="va">True</span>,square <span class="op">=</span> <span class="va">True</span>)</span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_af0f955bbd4845acb7e0c8a35ba44f88/a478a3e919cd111b4fd7cc865f659eeee705f751.png" /></p>
+</div>
+</div>
+<div class="cell markdown">
+<p>There is a Significantly high correlation between
+month_to_end_contract to contract_period. since this is abviously
+corelated it will benifit us to remove it from our matrix in order for
+us to see corelations better.</p>
+</div>
+<div class="cell code" data-execution_count="10">
+<div class="sourceCode" id="cb12"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>corrMatrix <span class="op">=</span> corrMatrix.drop(<span class="st">&#39;month_to_end_contract&#39;</span>,axis <span class="op">=</span> <span class="dv">1</span>)</span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>corrMatrix <span class="op">=</span> corrMatrix.drop(<span class="st">&#39;month_to_end_contract&#39;</span>,axis <span class="op">=</span> <span class="dv">0</span>)</span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a></span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="11">
+<div class="sourceCode" id="cb13"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>fig, ax <span class="op">=</span> plt.subplots(figsize<span class="op">=</span>(<span class="dv">10</span>,<span class="dv">10</span>))    </span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>sns.heatmap(corrMatrix, annot<span class="op">=</span><span class="va">True</span>, square <span class="op">=</span> <span class="va">True</span>,cmap<span class="op">=</span><span class="st">&#39;Accent&#39;</span>)</span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_af0f955bbd4845acb7e0c8a35ba44f88/79c3a4b47427038999bcee1c0ef0ce351648a806.png" /></p>
+</div>
+</div>
+<div class="cell markdown">
+<div class="alert alert-success" role="alert">
+
+
+## Conclusions step2: <a id = '#unclusion_step_2'></a>
+##### Distributions:
+    • gender- there is a clear balance between sexes about 51% male 49% female
+    • near_location- 84% lives next to the gym, far users have higher chances of leaving, 76.8%  to be presice.
+    • partner- a partner has 35% chance of leaving as a non partner has 53% of leaving
+    • promofriends- promo friend have 18.4% to leave and non promo friends have
+    • near location- near people stay more than far, significantly!
+    • Partners tend to stay more than non partners
+    • group_visits- a user that does not attend group training is more likley to leave
+    • contact period- the shorter the period, the likleyhood of leaving
+    • age- they mean age of those who leave is 26-27 
+    • the mean total additional charges of stayers is 158$, for leavers is 115$
+    • lifetime- leavers tend to leave up to 1 month after thier subscription
+    • How often to they visit the gym (both absolute and relative)- those who stay, come to the gym 2 times a week, in apose to the leavers: 1.5 times.
+
+##### correlations:
+    Features, that there absence, are highly correlated to make them leave:
+    1. contract period
+    2. age
+    3. life time
+    4. visit frequency
+</div>
+</div>
+<section id="step-3-build-a-model-to-predict-user-churn-"
+class="cell markdown">
+<h2>Step 3. Build a model to predict user churn
+<a id = '#Step_3'></a></h2>
+<p>Build a binary classification model for customers where the target
+feature is the user's leaving next month.</p>
+</section>
+<section
+id="divide-the-data-into-train-and-validation-sets-using-the-train_test_split-function-"
+class="cell markdown">
+<h3>Divide the data into train and validation sets using the
+train_test_split() function. <a id = '#3.1'></a></h3>
+</section>
+<div class="cell code" data-execution_count="12">
+<div class="sourceCode" id="cb14"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>X <span class="op">=</span> gym_churn.drop(<span class="st">&#39;churn&#39;</span>, axis <span class="op">=</span> <span class="dv">1</span>)</span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> gym_churn[<span class="st">&#39;churn&#39;</span>]</span>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a><span class="co"># divide the data into train and test sets</span></span>
+<span id="cb14-5"><a href="#cb14-5" aria-hidden="true" tabindex="-1"></a>X_train, X_test, y_train, y_test <span class="op">=</span> train_test_split(X, y, test_size<span class="op">=</span><span class="fl">0.2</span>, random_state<span class="op">=</span><span class="dv">0</span>)</span>
+<span id="cb14-6"><a href="#cb14-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-7"><a href="#cb14-7" aria-hidden="true" tabindex="-1"></a><span class="co"># train StandardScaler on the train set</span></span>
+<span id="cb14-8"><a href="#cb14-8" aria-hidden="true" tabindex="-1"></a>scaler <span class="op">=</span> StandardScaler()</span>
+<span id="cb14-9"><a href="#cb14-9" aria-hidden="true" tabindex="-1"></a>scaler.fit(X_train)</span>
+<span id="cb14-10"><a href="#cb14-10" aria-hidden="true" tabindex="-1"></a></span></code></pre></div>
+<div class="output execute_result" data-execution_count="12">
+<pre><code>StandardScaler()</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<h3 id="train-the-model-on-the-train-set-with-two-methods-">Train the
+model on the train set with two methods: <a id = '#3.2'></a></h3>
+<pre><code>• logistic regression
+• random forest</code></pre>
+<h3
+id="evaluate-accuracy-precision-and-recall-for-both-models-using-the-validation-data-use-them-to-compare-the-models-which-model-gave-better-results-">Evaluate
+accuracy, precision, and recall for both models using the validation
+data. Use them to compare the models. Which model gave better results?
+<a id = '#3.3'></a></h3>
+</div>
+<div class="cell code" data-execution_count="13">
+<div class="sourceCode" id="cb17"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="co"># define the function that will output our metrics</span></span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> print_all_metrics(y_true, y_pred, y_proba, title <span class="op">=</span> <span class="st">&#39;Classification metrics&#39;</span>):</span>
+<span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(title)</span>
+<span id="cb17-4"><a href="#cb17-4" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">&#39;</span><span class="ch">\t</span><span class="st">Accuracy: </span><span class="sc">{:.2f}</span><span class="st">&#39;</span>.<span class="bu">format</span>(accuracy_score(y_true, y_pred)))</span>
+<span id="cb17-5"><a href="#cb17-5" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">&#39;</span><span class="ch">\t</span><span class="st">Balanced Accuracy: </span><span class="sc">{:.2f}</span><span class="st">&#39;</span>.<span class="bu">format</span>((balanced_accuracy_score(y_true,y_pred))))</span>
+<span id="cb17-6"><a href="#cb17-6" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">&#39;</span><span class="ch">\t</span><span class="st">Precision: </span><span class="sc">{:.2f}</span><span class="st">&#39;</span>.<span class="bu">format</span>(precision_score(y_true, y_pred)))</span>
+<span id="cb17-7"><a href="#cb17-7" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">&#39;</span><span class="ch">\t</span><span class="st">Recall: </span><span class="sc">{:.2f}</span><span class="st">&#39;</span>.<span class="bu">format</span>(recall_score(y_true, y_pred)))</span>
+<span id="cb17-8"><a href="#cb17-8" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">&#39;</span><span class="ch">\t</span><span class="st">F1: </span><span class="sc">{:.2f}</span><span class="st">&#39;</span>.<span class="bu">format</span>(f1_score(y_true, y_pred)))</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="14">
+<div class="sourceCode" id="cb18"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="co"># define the Logistic regression model</span></span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a>lr_model <span class="op">=</span> LogisticRegression(random_state<span class="op">=</span><span class="dv">0</span>)</span>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-4"><a href="#cb18-4" aria-hidden="true" tabindex="-1"></a><span class="co"># train the model</span></span>
+<span id="cb18-5"><a href="#cb18-5" aria-hidden="true" tabindex="-1"></a>lr_model.fit(X_train, y_train)</span>
+<span id="cb18-6"><a href="#cb18-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-7"><a href="#cb18-7" aria-hidden="true" tabindex="-1"></a><span class="co"># use the trained model to make forecasts</span></span>
+<span id="cb18-8"><a href="#cb18-8" aria-hidden="true" tabindex="-1"></a>predictions <span class="op">=</span> lr_model.predict(X_test)</span>
+<span id="cb18-9"><a href="#cb18-9" aria-hidden="true" tabindex="-1"></a>probabilities <span class="op">=</span> lr_model.predict_proba(X_test)[:,<span class="dv">1</span>] </span>
+<span id="cb18-10"><a href="#cb18-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-11"><a href="#cb18-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-12"><a href="#cb18-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-13"><a href="#cb18-13" aria-hidden="true" tabindex="-1"></a><span class="co"># define the algorithm for the logistic regression model</span></span>
+<span id="cb18-14"><a href="#cb18-14" aria-hidden="true" tabindex="-1"></a>lr_model <span class="op">=</span> LogisticRegression(random_state<span class="op">=</span><span class="dv">0</span>)</span>
+<span id="cb18-15"><a href="#cb18-15" aria-hidden="true" tabindex="-1"></a><span class="co"># train the model</span></span>
+<span id="cb18-16"><a href="#cb18-16" aria-hidden="true" tabindex="-1"></a>lr_model.fit(X_train, y_train)</span>
+<span id="cb18-17"><a href="#cb18-17" aria-hidden="true" tabindex="-1"></a><span class="co"># use the trained model to make predictions</span></span>
+<span id="cb18-18"><a href="#cb18-18" aria-hidden="true" tabindex="-1"></a>lr_predictions <span class="op">=</span> lr_model.predict(X_test)</span>
+<span id="cb18-19"><a href="#cb18-19" aria-hidden="true" tabindex="-1"></a>lr_probabilities <span class="op">=</span> lr_model.predict_proba(X_test)[:,<span class="dv">1</span>]</span>
+<span id="cb18-20"><a href="#cb18-20" aria-hidden="true" tabindex="-1"></a><span class="co"># print all metrics</span></span>
+<span id="cb18-21"><a href="#cb18-21" aria-hidden="true" tabindex="-1"></a>print_all_metrics(y_test, lr_predictions, lr_probabilities , title<span class="op">=</span><span class="st">&#39;Metrics for logistic regression:&#39;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Metrics for logistic regression:
+	Accuracy: 0.91
+	Balanced Accuracy: 0.87
+	Precision: 0.82
+	Recall: 0.80
+	F1: 0.81
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="15">
+<div class="sourceCode" id="cb20"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="co"># defining the new model&#39;s algorithm based on the random forest algorithm</span></span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a>rf_model <span class="op">=</span> RandomForestRegressor(n_estimators <span class="op">=</span> <span class="dv">100</span>,random_state <span class="op">=</span> <span class="dv">0</span>)</span>
+<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-4"><a href="#cb20-4" aria-hidden="true" tabindex="-1"></a><span class="co"># train the model</span></span>
+<span id="cb20-5"><a href="#cb20-5" aria-hidden="true" tabindex="-1"></a>rf_model.fit(X_train, y_train)</span>
+<span id="cb20-6"><a href="#cb20-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-7"><a href="#cb20-7" aria-hidden="true" tabindex="-1"></a><span class="co"># use the trained model to make forecasts</span></span>
+<span id="cb20-8"><a href="#cb20-8" aria-hidden="true" tabindex="-1"></a>y_pred <span class="op">=</span> rf_model.predict(X_test) </span>
+<span id="cb20-9"><a href="#cb20-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-10"><a href="#cb20-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-11"><a href="#cb20-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-12"><a href="#cb20-12" aria-hidden="true" tabindex="-1"></a><span class="co"># define the algorithm for the new random forest model</span></span>
+<span id="cb20-13"><a href="#cb20-13" aria-hidden="true" tabindex="-1"></a>rf_model <span class="op">=</span> RandomForestClassifier(n_estimators <span class="op">=</span> <span class="dv">100</span>, random_state <span class="op">=</span> <span class="dv">0</span>)</span>
+<span id="cb20-14"><a href="#cb20-14" aria-hidden="true" tabindex="-1"></a><span class="co"># train the random forest model</span></span>
+<span id="cb20-15"><a href="#cb20-15" aria-hidden="true" tabindex="-1"></a>rf_model.fit(X_train, y_train)</span>
+<span id="cb20-16"><a href="#cb20-16" aria-hidden="true" tabindex="-1"></a><span class="co"># use the trained model to make predictions</span></span>
+<span id="cb20-17"><a href="#cb20-17" aria-hidden="true" tabindex="-1"></a>rf_predictions <span class="op">=</span> rf_model.predict(X_test) <span class="co"># write your code here</span></span>
+<span id="cb20-18"><a href="#cb20-18" aria-hidden="true" tabindex="-1"></a>rf_probabilities <span class="op">=</span> rf_model.predict_proba(X_test)[:,<span class="dv">1</span>]<span class="co"># write your code here</span></span>
+<span id="cb20-19"><a href="#cb20-19" aria-hidden="true" tabindex="-1"></a><span class="co"># print all metrics</span></span>
+<span id="cb20-20"><a href="#cb20-20" aria-hidden="true" tabindex="-1"></a>print_all_metrics(y_test, rf_predictions, rf_probabilities, title <span class="op">=</span> <span class="st">&#39;Metrics for random forest:&#39;</span>)</span>
+<span id="cb20-21"><a href="#cb20-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-22"><a href="#cb20-22" aria-hidden="true" tabindex="-1"></a></span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Metrics for random forest:
+	Accuracy: 0.92
+	Balanced Accuracy: 0.88
+	Precision: 0.84
+	Recall: 0.82
+	F1: 0.83
+</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<div class="alert alert-success" role="alert">
+
+
+##  conclusion step 3:<a id = '#Cunclusion_step_3'></a>
+    Logistic regression gives us a higher balanced accuracy rate, so the fact that it gave us better results
+    -is reliable.
+    both models have the same F1 score, Which is the balance between the Precision and recall metrics. 
+</div>
+</div>
+<section id="step-4-create-user-clusters-" class="cell markdown">
+<h2>Step 4. Create user clusters <a id = '#Step_4'></a></h2>
+<p>Set aside the column with data on churn and identify object (user)
+clusters:</p>
+</section>
+<section id="standardize-the-data-" class="cell markdown">
+<h3>Standardize the data. <a id = '#4.1'></a></h3>
+</section>
+<div class="cell code" data-execution_count="16">
+<div class="sourceCode" id="cb22"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a>scaler <span class="op">=</span> StandardScaler() <span class="co"># creating a scaler class object (normalizer)</span></span>
+<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a>x_sc <span class="op">=</span> scaler.fit_transform(gym_churn.drop(columns <span class="op">=</span> [<span class="st">&#39;churn&#39;</span>]))</span>
+<span id="cb22-3"><a href="#cb22-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(x_sc[:<span class="dv">10</span>]) </span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>[[ 0.97970588  0.42788074  1.02686062  1.49716101 -3.05985201  0.28989014
+   1.19403206 -0.0565538  -1.37753121  0.16160501 -0.19332863 -1.91191971
+  -1.67847198]
+ [-1.0207145   0.42788074 -0.973842   -0.66793083  0.32681319  1.60882159
+   1.19403206  0.55732732 -0.35021325  1.83194105  0.87368001  0.04517569
+   0.1360137 ]
+ [-1.0207145   0.42788074  1.02686062 -0.66793083  0.32681319 -0.8092194
+  -0.83749845 -0.36349436 -0.1815923  -0.79287273 -0.46008079 -0.02049263
+  -0.02901851]
+ [-1.0207145   0.42788074  1.02686062  1.49716101  0.32681319  1.60882159
+   1.19403206  1.17120844 -0.87472237  1.83194105 -0.46008079  1.36465509
+   1.51045005]
+ [ 0.97970588  0.42788074  1.02686062  1.49716101  0.32681319 -0.8092194
+  -0.83749845 -0.97737548  0.5336998  -0.79287273 -0.19332863 -0.78707638
+  -0.61454183]
+ [ 0.97970588  0.42788074 -0.973842   -0.66793083  0.32681319 -0.8092194
+   1.19403206  1.478149    3.15330097 -0.79287273 -0.19332863  0.76580519
+   0.82634551]
+ [ 0.97970588  0.42788074  1.02686062  1.49716101 -3.05985201  0.28989014
+   1.19403206  0.86426788 -0.54676556  0.40022445 -0.46008079 -0.76130102
+  -0.46525669]
+ [-1.0207145   0.42788074 -0.973842   -0.66793083  0.32681319 -0.8092194
+  -0.83749845  0.25038676  0.73531552 -0.79287273 -0.99358511 -0.68460218
+  -0.68168915]
+ [ 0.97970588  0.42788074  1.02686062  1.49716101  0.32681319 -0.8092194
+   1.19403206 -1.89819716 -1.05387243 -0.79287273 -0.72683295 -0.79494109
+  -0.67224189]
+ [-1.0207145   0.42788074 -0.973842   -0.66793083  0.32681319 -0.8092194
+  -0.83749845  0.55732732 -0.84731033 -0.79287273  1.94068865 -0.07012259
+   0.17507634]]
+</code></pre>
+</div>
+</div>
+<section
+id="use-the-linkage-function-to-build-a-matrix-of-distances-based-on-the-standardized-feature-matrix-and-plot-a-dendrogram-"
+class="cell markdown">
+<h3>Use the linkage() function to build a matrix of distances based on
+the standardized feature matrix and plot a dendrogram.
+<a id = '#4.2'></a></h3>
+<p>Note: rendering the dendrogram may take time! Use the resulting graph
+to estimate the number of clusters you can single out.</p>
+</section>
+<div class="cell code" data-execution_count="17">
+<div class="sourceCode" id="cb24"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a>linked <span class="op">=</span> linkage(x_sc, method <span class="op">=</span> <span class="st">&#39;ward&#39;</span>) </span>
+<span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-3"><a href="#cb24-3" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">15</span>, <span class="dv">10</span>))  </span>
+<span id="cb24-4"><a href="#cb24-4" aria-hidden="true" tabindex="-1"></a>dendrogram(linked, orientation<span class="op">=</span><span class="st">&#39;top&#39;</span>)</span>
+<span id="cb24-5"><a href="#cb24-5" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Hierarchical clustering for GYM&#39;</span>)</span>
+<span id="cb24-6"><a href="#cb24-6" aria-hidden="true" tabindex="-1"></a>plt.show() </span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_af0f955bbd4845acb7e0c8a35ba44f88/0819692fbccd71608f108ade47e8d5c471f19f7c.png" /></p>
+</div>
+</div>
+<div class="cell code" data-execution_count="18">
+<div class="sourceCode" id="cb25"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a><span class="co">## there are 4 clusters (4 diferent colors)</span></span></code></pre></div>
+</div>
+<section
+id="train-the-clustering-model-with-the-k-means-algorithm-and-predict-customer-clusters-"
+class="cell markdown">
+<h3>Train the clustering model with the K-means algorithm and predict
+customer clusters. <a id = '#4.3'></a></h3>
+</section>
+<div class="cell code" data-execution_count="19">
+<div class="sourceCode" id="cb26"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a>km <span class="op">=</span> KMeans(n_clusters <span class="op">=</span> <span class="dv">4</span>, random_state <span class="op">=</span> <span class="dv">0</span>) <span class="co"># setting the number of clusters as 4</span></span>
+<span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a>labels <span class="op">=</span> km.fit_predict(x_sc) <span class="co"># applying the algorithm to the data and forming a cluster vector </span></span>
+<span id="cb26-3"><a href="#cb26-3" aria-hidden="true" tabindex="-1"></a>gym_churn[<span class="st">&#39;cluster_km&#39;</span>] <span class="op">=</span> labels</span></code></pre></div>
+</div>
+<section id="look-at-the-mean-feature-values-for-clusters-"
+class="cell markdown">
+<h3>Look at the mean feature values for clusters.
+<a id = '#4.4'></a><a id = '#4.6'></a></h3>
+</section>
+<div class="cell code" data-execution_count="20">
+<div class="sourceCode" id="cb27"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a>gym_churn</span></code></pre></div>
+<div class="output execute_result" data-execution_count="20">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>gender</th>
+      <th>near_location</th>
+      <th>partner</th>
+      <th>promo_friends</th>
+      <th>phone</th>
+      <th>contract_period</th>
+      <th>group_visits</th>
+      <th>age</th>
+      <th>avg_additional_charges_total</th>
+      <th>month_to_end_contract</th>
+      <th>lifetime</th>
+      <th>avg_class_frequency_total</th>
+      <th>avg_class_frequency_current_month</th>
+      <th>churn</th>
+      <th>cluster_km</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>6</td>
+      <td>1</td>
+      <td>29</td>
+      <td>14.227470</td>
+      <td>5.0</td>
+      <td>3</td>
+      <td>0.020398</td>
+      <td>0.000000</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>12</td>
+      <td>1</td>
+      <td>31</td>
+      <td>113.202938</td>
+      <td>12.0</td>
+      <td>7</td>
+      <td>1.922936</td>
+      <td>1.910244</td>
+      <td>0</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>28</td>
+      <td>129.448479</td>
+      <td>1.0</td>
+      <td>2</td>
+      <td>1.859098</td>
+      <td>1.736502</td>
+      <td>0</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>12</td>
+      <td>1</td>
+      <td>33</td>
+      <td>62.669863</td>
+      <td>12.0</td>
+      <td>2</td>
+      <td>3.205633</td>
+      <td>3.357215</td>
+      <td>0</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>26</td>
+      <td>198.362265</td>
+      <td>1.0</td>
+      <td>3</td>
+      <td>1.113884</td>
+      <td>1.120078</td>
+      <td>0</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>3995</th>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>12</td>
+      <td>0</td>
+      <td>33</td>
+      <td>2.406023</td>
+      <td>12.0</td>
+      <td>8</td>
+      <td>2.284497</td>
+      <td>2.349070</td>
+      <td>0</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>3996</th>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>29</td>
+      <td>68.883764</td>
+      <td>1.0</td>
+      <td>1</td>
+      <td>1.277168</td>
+      <td>0.292859</td>
+      <td>1</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>3997</th>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>12</td>
+      <td>0</td>
+      <td>28</td>
+      <td>78.250542</td>
+      <td>11.0</td>
+      <td>2</td>
+      <td>2.786146</td>
+      <td>2.831439</td>
+      <td>0</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>3998</th>
+      <td>0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>6</td>
+      <td>0</td>
+      <td>32</td>
+      <td>61.912657</td>
+      <td>5.0</td>
+      <td>3</td>
+      <td>1.630108</td>
+      <td>1.596237</td>
+      <td>0</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>3999</th>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>12</td>
+      <td>1</td>
+      <td>30</td>
+      <td>178.861814</td>
+      <td>12.0</td>
+      <td>1</td>
+      <td>1.101832</td>
+      <td>1.035270</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+<p>4000 rows × 15 columns</p>
+</div>
+</div>
+</div>
+<div class="cell code" data-execution_count="21">
+<div class="sourceCode" id="cb28"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a>display(gym_churn.groupby(<span class="st">&#39;cluster_km&#39;</span>).mean())</span>
+<span id="cb28-2"><a href="#cb28-2" aria-hidden="true" tabindex="-1"></a></span></code></pre></div>
+<div class="output display_data">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>gender</th>
+      <th>near_location</th>
+      <th>partner</th>
+      <th>promo_friends</th>
+      <th>phone</th>
+      <th>contract_period</th>
+      <th>group_visits</th>
+      <th>age</th>
+      <th>avg_additional_charges_total</th>
+      <th>month_to_end_contract</th>
+      <th>lifetime</th>
+      <th>avg_class_frequency_total</th>
+      <th>avg_class_frequency_current_month</th>
+      <th>churn</th>
+    </tr>
+    <tr>
+      <th>cluster_km</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>0.523316</td>
+      <td>0.862694</td>
+      <td>0.471503</td>
+      <td>0.305699</td>
+      <td>0.0</td>
+      <td>4.777202</td>
+      <td>0.427461</td>
+      <td>29.297927</td>
+      <td>144.208179</td>
+      <td>4.466321</td>
+      <td>3.940415</td>
+      <td>1.854211</td>
+      <td>1.723967</td>
+      <td>0.266839</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>0.541509</td>
+      <td>0.866038</td>
+      <td>0.334906</td>
+      <td>0.200000</td>
+      <td>1.0</td>
+      <td>2.383962</td>
+      <td>0.450943</td>
+      <td>29.998113</td>
+      <td>157.888187</td>
+      <td>2.221698</td>
+      <td>4.710377</td>
+      <td>2.712339</td>
+      <td>2.698750</td>
+      <td>0.092453</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>0.503238</td>
+      <td>0.940796</td>
+      <td>0.777983</td>
+      <td>0.573543</td>
+      <td>1.0</td>
+      <td>10.690102</td>
+      <td>0.532840</td>
+      <td>29.899167</td>
+      <td>161.051935</td>
+      <td>9.760407</td>
+      <td>4.721554</td>
+      <td>1.993064</td>
+      <td>1.984827</td>
+      <td>0.029602</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>0.489477</td>
+      <td>0.755601</td>
+      <td>0.386286</td>
+      <td>0.192804</td>
+      <td>1.0</td>
+      <td>1.899525</td>
+      <td>0.291921</td>
+      <td>28.044128</td>
+      <td>129.431049</td>
+      <td>1.806517</td>
+      <td>2.227427</td>
+      <td>1.202154</td>
+      <td>0.948054</td>
+      <td>0.562118</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="cell markdown">
+<ul>
+<li><b>cluster 0 churn rate:</b> 26% <b>Known for:</b> No customers
+provided their phone number.</li>
+<li><b>cluster 2 churn rate:</b> 9% <b>Known for:</b> Attending the gym
+more than 2 times a week.</li>
+<li><b>cluster 3 churn rate:</b> 3% <b>Known for:</b> Longest contract
+period.</li>
+<li><b>cluster 4 churn rate:</b> 56% <b>Known for:</b> Closest to ending
+their contract, youngest.</li>
+</ul>
+</div>
+<section id="plot-distributions-of-features-for-the-clusters-"
+class="cell markdown">
+<h3>Plot distributions of features for the clusters.
+<a id = '#4.5'></a></h3>
+<p><a id = '#step2'></a></p>
+</section>
+<div class="cell code" data-execution_count="25">
+<div class="sourceCode" id="cb29"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a><span class="co">#lets set the visual palet and figure and grid size</span></span>
+<span id="cb29-2"><a href="#cb29-2" aria-hidden="true" tabindex="-1"></a>sns.set_palette(<span class="st">&quot;pastel&quot;</span>, <span class="dv">5</span>)</span>
+<span id="cb29-3"><a href="#cb29-3" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">15</span>,<span class="dv">18</span>))</span>
+<span id="cb29-4"><a href="#cb29-4" aria-hidden="true" tabindex="-1"></a>the_grid <span class="op">=</span> GridSpec(<span class="dv">5</span>, <span class="dv">3</span>)</span>
+<span id="cb29-5"><a href="#cb29-5" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i,column <span class="kw">in</span> <span class="bu">enumerate</span>(gym_churn.drop([<span class="st">&#39;cluster_km&#39;</span>,<span class="st">&#39;churn&#39;</span>], axis<span class="op">=</span><span class="dv">1</span>).columns):</span>
+<span id="cb29-6"><a href="#cb29-6" aria-hidden="true" tabindex="-1"></a>    plt.subplot(the_grid[i<span class="op">//</span><span class="dv">3</span>, i<span class="op">%</span><span class="dv">3</span>], title<span class="op">=</span>column.replace(<span class="st">&#39;_&#39;</span>,<span class="st">&#39; &#39;</span>))</span>
+<span id="cb29-7"><a href="#cb29-7" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> gym_churn[column].unique().<span class="bu">sum</span>() <span class="op">==</span> <span class="dv">1</span>:</span>
+<span id="cb29-8"><a href="#cb29-8" aria-hidden="true" tabindex="-1"></a>        sns.countplot(x<span class="op">=</span>column, hue<span class="op">=</span><span class="st">&#39;cluster_km&#39;</span>, data<span class="op">=</span>gym_churn, saturation <span class="op">=</span><span class="dv">1</span>)</span>
+<span id="cb29-9"><a href="#cb29-9" aria-hidden="true" tabindex="-1"></a>        plt.xlabel(<span class="st">&#39;&#39;</span>)</span>
+<span id="cb29-10"><a href="#cb29-10" aria-hidden="true" tabindex="-1"></a>        plt.ylabel(<span class="st">&#39;&#39;</span>)</span>
+<span id="cb29-11"><a href="#cb29-11" aria-hidden="true" tabindex="-1"></a>        plt.gca().get_legend().remove()</span>
+<span id="cb29-12"><a href="#cb29-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb29-13"><a href="#cb29-13" aria-hidden="true" tabindex="-1"></a><span class="co">#set legend position</span></span>
+<span id="cb29-14"><a href="#cb29-14" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> column <span class="op">==</span> <span class="st">&#39;near_location&#39;</span>:</span>
+<span id="cb29-15"><a href="#cb29-15" aria-hidden="true" tabindex="-1"></a>            legend <span class="op">=</span> gym_churn[<span class="st">&#39;cluster_km&#39;</span>].unique()</span>
+<span id="cb29-16"><a href="#cb29-16" aria-hidden="true" tabindex="-1"></a>            plt.legend(legend, shadow<span class="op">=</span><span class="va">True</span>, fancybox<span class="op">=</span><span class="va">True</span>, title<span class="op">=</span><span class="st">&#39;cluster_km&#39;</span>, loc<span class="op">=</span><span class="st">&#39;upper left&#39;</span>)</span>
+<span id="cb29-17"><a href="#cb29-17" aria-hidden="true" tabindex="-1"></a><span class="co">#plot Continuous data       </span></span>
+<span id="cb29-18"><a href="#cb29-18" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> gym_churn[column].unique().<span class="bu">sum</span>() <span class="op">&gt;</span> <span class="dv">1</span>:</span>
+<span id="cb29-19"><a href="#cb29-19" aria-hidden="true" tabindex="-1"></a>        sns.distplot(gym_churn[gym_churn[<span class="st">&#39;cluster_km&#39;</span>] <span class="op">==</span> <span class="dv">0</span>][column], hist <span class="op">=</span> <span class="va">False</span>, kde <span class="op">=</span> <span class="va">True</span>, kde_kws<span class="op">=</span> {<span class="st">&quot;lw&quot;</span>: <span class="dv">3</span>})</span>
+<span id="cb29-20"><a href="#cb29-20" aria-hidden="true" tabindex="-1"></a>        sns.distplot(gym_churn[gym_churn[<span class="st">&#39;cluster_km&#39;</span>] <span class="op">==</span> <span class="dv">1</span>][column], hist <span class="op">=</span> <span class="va">False</span>, kde <span class="op">=</span> <span class="va">True</span>, kde_kws<span class="op">=</span> {<span class="st">&quot;lw&quot;</span>: <span class="dv">3</span>})</span>
+<span id="cb29-21"><a href="#cb29-21" aria-hidden="true" tabindex="-1"></a>        sns.distplot(gym_churn[gym_churn[<span class="st">&#39;cluster_km&#39;</span>] <span class="op">==</span> <span class="dv">2</span>][column], hist <span class="op">=</span> <span class="va">False</span>, kde <span class="op">=</span> <span class="va">True</span>, kde_kws<span class="op">=</span> {<span class="st">&quot;lw&quot;</span>: <span class="dv">3</span>})</span>
+<span id="cb29-22"><a href="#cb29-22" aria-hidden="true" tabindex="-1"></a>        sns.distplot(gym_churn[gym_churn[<span class="st">&#39;cluster_km&#39;</span>] <span class="op">==</span> <span class="dv">3</span>][column], hist <span class="op">=</span> <span class="va">False</span>, kde <span class="op">=</span> <span class="va">True</span>, kde_kws<span class="op">=</span> {<span class="st">&quot;lw&quot;</span>: <span class="dv">3</span>})</span>
+<span id="cb29-23"><a href="#cb29-23" aria-hidden="true" tabindex="-1"></a>        plt.xlabel(<span class="st">&#39;&#39;</span>)</span>
+<span id="cb29-24"><a href="#cb29-24" aria-hidden="true" tabindex="-1"></a>        plt.ylabel(<span class="st">&#39;&#39;</span>)</span>
+<span id="cb29-25"><a href="#cb29-25" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb29-26"><a href="#cb29-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb29-27"><a href="#cb29-27" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb29-28"><a href="#cb29-28" aria-hidden="true" tabindex="-1"></a>plt.suptitle(<span class="st">&#39;Feature Distribution&#39;</span>, fontsize <span class="op">=</span> <span class="dv">14</span>)</span>
+<span id="cb29-29"><a href="#cb29-29" aria-hidden="true" tabindex="-1"></a><span class="co">#plt.tight_layout()</span></span>
+<span id="cb29-30"><a href="#cb29-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb29-31"><a href="#cb29-31" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb29-32"><a href="#cb29-32" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_af0f955bbd4845acb7e0c8a35ba44f88/5d37acd2d5438e8c27b7b45ae533bedc3df5a2ea.png" /></p>
+</div>
+</div>
+<div class="cell markdown">
+<div class="alert alert-success" role="alert">
+
+
+## conclusion step 4 <a id = '#Conclusion_step_4'></a>
+
+ properties of those whoe churn:
+
+    
+    • they live near the gym
+    • they are not partners
+    • they are mostly not promo friends
+    • they all left a phone number
+    • they have a sort contract period
+    • they mostly do not attend group visits
+    • they are below 30 yrold
+    • spend the least cash in the gym on additional products
+    • leave right before their contract ends, about 1 month
+    • they attend the gym less than 2 times a week
+    
+    they have a 56% precent to churn.
+</div>
+</div>
+<section id="step-5-" class="cell markdown">
+<h2>Step 5 <a id = '#Step_5'></a></h2>
+<h3
+id="come-up-with-conclusions-and-basic-recommendations-on-working-with-customers">Come
+up with conclusions and basic recommendations on working with
+customers</h3>
+<p>Draw conclusions and formulate recommendations regarding the strategy
+for customer interaction and retention.</p>
+</section>
+<div class="cell markdown">
+<div class="alert alert-success" role="alert">
+
+
+### Step 5 conclusions and recomendations: <a id = '#5.1'></a>
+
+      * Conclusions:
+        The top 3 highest churn related featurs are:
+        lifetime- expect the last month of the contract to be the month users churn 
+        times they attend the gym a week- less then 2 times a week is ideal to churn 
+        age- younger people leave more (under 30)
+        
+      * Recomendations:
+        Target young users (younger than 30), try to get them to attend more than 2 times a week,
+        do that before they reach the final month of their contract.
+</div>
+</div>
+<div class="cell markdown">
+<div class="alert alert-warning">
+
+
+
+# General Conclusions: <a id = '#General _conclusions'></a>
+
+### Feature Distributions:
+    • There is a balance between male and females <br>
+    • 84% lives next to the gym <br>
+    • 48.6% are partners <br>
+    • 30% came from a friends promo code <br>
+    • 90% provided their phone number <br>
+    • Average contract length: 4.68 months whith a standart deviation of 4.5<br>
+    • 41% takes part in group sessions <br>
+    • Average age is 29 with a standart deviation of 3 years older or younger <br>
+    • The mode of additional purchases for users is 136 usd with a standart deviation of 96 usd <br>
+    • The average of additional purchases for users is 146 usd with a standart deviation of 96 usd <br>
+    • Costumers usualy come to the gym 1.8 times a week in a total prespective <br>
+    • Costumers usualy come to the gym 1.7 times a week in a relative prespective <br>
+
+
+### Feature correlation with churn:
+    It is learned from the data that the top features affecting churn rate are:
+    (sorted by influence of the feature, in descending order)
+        1. lifetime- expect the last month of the contract to be the month users churn 
+        2. times they attend the gym a week- less then 2 times a week is ideal to churn 
+        3. age- younger people leave more 
+        4. contract period- short contract leave more
+        5. average additional charges- the less they spend, the more indication there probably going to leave
+        6. promo code- non promo codes leave more 
+        7. partner- non parters leave more
+        8. near location- far users tend to churn more
+
+### Prediction model used:
+    Logistic regression gives us a higher balanced accuracy rate, so the fact that it gave us better results is reliable.
+    
+### Clusters:
+
+* <b>cluster 0 churn rate:</b> 26% <b>Known for:</b> No customers provided their phone number.
+* <b>cluster 2 churn rate:</b> 9% <b>Known for:</b> Attending the gym more than 2 times a week.
+* <b>cluster 3 churn rate:</b> 3% <b>Known for:</b> Longest contract period.
+* <b>cluster 4 churn rate:</b> 56% <b>Known for:</b> Closest to ending their contract. and also the youngest cluster
+
+## Recomendations:
+<b>General recomendation:</b>
+        Target young users (younger than 30), try to get them to attend more than 2 times a week,
+        do that before they reach the final month of their contract.
+        
+<b>Specific recomendations:</b>
+        promo codes and parters churn more, their is a strong positive correlation between those two, probably from word of mouth at thier work places, point marketing efforts to adress partners to enhance promo codes.
+</div>
+</div>
+</body>
+</html>
